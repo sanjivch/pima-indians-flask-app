@@ -1,1 +1,1 @@
-# pima-indians-react-tensorflowjs
+# PIMA Indians Diabetes classifier
