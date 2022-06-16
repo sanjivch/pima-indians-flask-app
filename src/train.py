@@ -21,6 +21,9 @@ df2 = df2.replace({'BloodPressure':0}, np.median(df2['BloodPressure']))
 dataframe = [df1, df2]
 df = pd.concat(dataframe)
 
+# Reorder columns - for Inference purpose 
+df = df[['Age', 'BMI', 'Glucose', 'Insulin', 'BloodPressure', 'SkinThickness', 'Pregnancies', 'DiabetesPedigreeFunction', 'Outcome']]
+
 #Splitting the data into dependent and independent variables
 X = df.drop('Outcome', axis = 1)
 Y = df['Outcome']

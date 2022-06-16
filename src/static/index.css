@@ -1,17 +1,10 @@
 * {
-    font-family: sans-serif;
-    text-align: center;
+    font-family: font-family: 'Joan', serif;
+   
 }
 
 body {
     background-color: aquamarine;
+    color: bisque;
 }
-    h1 {
-    color: blue;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-}
-
+   
